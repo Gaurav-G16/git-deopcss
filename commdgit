@@ -1,0 +1,1000 @@
+ 1030  pm2 logs nodejs-app
+ 1031  ls
+ 1032  cd nodejs-app
+ 1033  ls
+ 1034  cd /var/lib/jenkins/workspace/nodejs-springboot-app/nodejsApp
+ 1035  ls
+ 1036  cat package.json 
+ 1037  pm2 start src/app.js --name nodejsApp
+ 1038  pm2 stop nodejs-app
+ 1039  pm2 start src/app.js --name nodejsApp
+ 1040  pm2 restart nodejsApp
+ 1041  pm2 start src/app.js --name nodejsApp -f
+ 1042  pm2 delete nodejsApp
+ 1043  pm2 start src/app.js --name nodejsApp
+ 1044  pm2 list
+ 1045  pm2 delete nodejs-app
+ 1046  docker -v
+ 1047  docker run -t ubuntu 
+ 1048  docker run -it ubuntu 
+ 1049  docker image
+ 1050  docker images
+ 1051  docker ps
+ 1052  docker stop 1e10fd3f5c7d
+ 1053  docker ps
+ 1054  ls
+ 1055  cd Desktop/
+ 1056  ls
+ 1057  sudo mkdir Docker_projects
+ 1058  cd Docker_projects/
+ 1059  ls
+ 1060  git clone https://github.com/Gaurav-G16/simple-java-docker.git
+ 1061  sudo git clone https://github.com/Gaurav-G16/simple-java-docker.git
+ 1062  ls
+ 1063  cd simple-java-docker/
+ 1064  ls
+ 1065  rm -v Dockerfile 
+ 1066  ls
+ 1067  sudo rm -v Dockerfile 
+ 1068  ls
+ 1069  sudo systemctl status docker
+ 1070  docker
+ 1071  docker ps
+ 1072  whoami
+ 1073  docker login -u gauravg16
+ 1074  docker images
+ 1075  docker pull hello-world
+ 1076  docker images
+ 1077  docker run hello-world:latest 
+ 1078  docker ps
+ 1079  docker pull mysql
+ 1080  docker run -e MYSQL_ROOT-PASSWORD=root mysql
+ 1081  docker ps
+ 1082  docker run -e MYSQL_ROOT_PASSWORD=root mysql
+ 1083  docker images
+ 1084  dokcer login
+ 1085  docker login
+ 1086  docker images
+ 1087  docker rm c35e29c94501
+ 1088  docker rmi c35e29c94501
+ 1089  docker rm e9df6db1c211
+ 1090  docker images
+ 1091  docker ps -a
+ 1092  ronni@Garry:~$ docker ps -a
+ 1093  CONTAINER ID   IMAGE                COMMAND                  CREATED        STATUS                     PORTS     NAMES
+ 1094  1e10fd3f5c7d   mysql                "docker-entrypoint.s…"   2 hours ago    Exited (0) 2 hours ago               romantic_hellman
+ 1095  42ffcbc282e0   mysql                "docker-entrypoint.s…"   2 hours ago    Exited (1) 2 hours ago               romantic_hofstadter
+ 1096  2f93679b626b   hello-world:latest   "/hello"                 3 hours ago    Exited (0) 3 hours ago               confident_buck
+ 1097  f56a8cf426b4   ubuntu               "/bin/bash"              16 hours ago   Exited (255) 3 hours ago             frosty_babbage
+ 1098  8568f875089d   ubuntu               "/bin/bash"              2 weeks ago    Exited (0) 2 weeks ago               cranky_varahamihira
+ 1099  de6ee70893dc   ubuntu               "/bin/bash"              2 weeks ago    Exited (0) 2 weeks ago               infallible_boyd
+ 1100  a9c0527cd50f   hello-world          "/hello"                 2 weeks ago    Exited (0) 2 weeks ago               stupefied_banzai
+ 1101  2338039f1a27   hello-world          "/hello"                 2 weeks ago    Exited (0) 2 weeks ago               boring_williams
+ 1102  ronni@Garry:~$
+ 1103  docker rm $(docker ps -aq)
+ 1104  docker ps -a
+ 1105  docker rmi ubuntu:latest
+ 1106  docker rmi hello-world
+ 1107  docker rmi mysql:latest
+ 1108  docker images
+ 1109  clear
+ 1110  docker run -it ubuntu
+ 1111  docker run -it -p 8081:8080 tomcat/tomcat
+ 1112  docker pull tomcat:latest
+ 1113  docker run -it -p 8081:8080 tomcat/tomcat
+ 1114  docker run -it -p 8081:8080 tomcat
+ 1115  docker pull jenkins/jenkins:lts
+ 1116  docker pull sanchitraj5/june-2026:1
+ 1117  docker pull hello-world
+ 1118  docker images
+ 1119  docekr run hello-world
+ 1120  docker run hello-world
+ 1121  dcoker ps -a
+ 1122  docker ps -a
+ 1123  docker ps
+ 1124  docker pull jenkins
+ 1125  docker pull jenkin
+ 1126  docker pull jenkin:latest
+ 1127  docker login
+ 1128  docker build --tag gauravg16/june-2025:1
+ 1129  dokcer push gauravg16/june-2025:1
+ 1130  docker push gauravg16/june-2025:1
+ 1131  git clone https://github.com/Gaurav-G16/maven-java-oct.git
+ 1132  ls
+ 1133  cd maven-java-oct/
+ 1134  ls
+ 1135  clear
+ 1136  ls
+ 1137  sudo vi dockerfile
+ 1138  docker images
+ 1139  ls
+ 1140  docker rmi ubuntu
+ 1141  docker ps 
+ 1142  docker ps -a
+ 1143  docker rm cranky_kirch
+ 1144  docker ps -a
+ 1145  docker rmi ubuntu
+ 1146  docker images
+ 1147  clear
+ 1148  ls
+ 1149  docker build --tag gauravg16/june-2025:1 .
+ 1150  ls
+ 1151  dokcer images
+ 1152  docker images
+ 1153  docker puch gauravg16/:1
+ 1154  docker push gauravg16/june-2025:1
+ 1155  docker login
+ 1156  dock
+ 1157  docker build --tag gauravg16/private-repo .
+ 1158  docker images
+ 1159  docker push gauravg16/private-repo:latest
+ 1160  docker push gauravg16/june-2025:1
+ 1161  ls
+ 1162  docker inspect gauravg16/june-2025:1
+ 1163  mvn package
+ 1164  ls
+ 1165  cd target/
+ 1166  ls
+ 1167  sudo /var/lib/docker/
+ 1168  docker images
+ 1169  docker pull ubuntu
+ 1170  ducker run -it ubuntu
+ 1171  docker run -it ubuntu
+ 1172  docker ps
+ 1173  cat /etc/passwd
+ 1174  docker ps
+ 1175  docker ps -a
+ 1176  docker attach trusting_dhawan
+ 1177  docker start trusting_dhawan
+ 1178  docker attach trusting_dhawan
+ 1179  docker ps -a
+ 1180  docker start hardcore_yalow
+ 1181  docker attach hardcore_yalow
+ 1182  docker exec hardcore_yalow /bin/bash
+ 1183  docker run hello-world
+ 1184  docker ps -a
+ 1185  docker exec -it focused_volhard /bin/bash
+ 1186  docker start focused_volhard
+ 1187  docker exec -it focused_volhard /bin/bash
+ 1188  docker ps
+ 1189  docker ps -a
+ 1190  docker container prune
+ 1191  docker container prune
+ 1192  docker attch rusting_dhawan
+ 1193  docker attach rusting_dhawan
+ 1194  docker ps -a
+ 1195  docker exec -it trusting_dhawan /bin/bash
+ 1196  docker exec -it ocused_volhard /bin/bash
+ 1197  docker ps -a
+ 1198  root@ec160ea09117:/# exit
+ 1199  exit
+ 1200  docker exec -it focused_volhard /bin/bash
+ 1201  docker ps -a
+ 1202  docker stop rusting_dhawan
+ 1203  docker stop trusting_dhawan
+ 1204  docker stop focused_volhard
+ 1205  docker ps -a
+ 1206  docker container prune
+ 1207  docker ps -a
+ 1208  docker images
+ 1209  docker image pruns
+ 1210  docker image prune
+ 1211  docker images
+ 1212  docker images prune
+ 1213  docker images
+ 1214  docker image prune
+ 1215  ubuntu:latest                   c35e29c94501        119MB         31.7MB
+ 1216  ronni@Garry:~$ docker image prune
+ 1217  WARNING! This will remove all dangling images.
+ 1218  Are you sure you want to continue? [y/N] y
+ 1219  Total reclaimed space: 0B
+ 1220  ronni@Garry:~$docker image prune -a
+ 1221  docker images
+ 1222  docker image prune -a
+ 1223  docker images
+ 1224  docker pull hello-world
+ 1225  docker images
+ 1226  docker ps
+ 1227  docker run it  hello-world
+ 1228  docker run it hello-world
+ 1229  docker ps
+ 1230  docker run -it hello-world
+ 1231  docker ps
+ 1232  docker ps -a
+ 1233  docker inspact --format '{{networksetting}}'
+ 1234  docker ps 
+ 1235  docker ps -a
+ 1236  docker ps -a -f status=exited
+ 1237  docker rm $(dokcer ps -aq)
+ 1238  docker rm $(docker ps -aq)
+ 1239  docker ps -a
+ 1240  docker images -q
+ 1241  docker rmi $(docker images -q)
+ 1242  docker rm $(dokcer ps -q -f "status=exited")
+ 1243  docker run -it ubuntu
+ 1244  docker ps 
+ 1245  docker inspect 90888ea98926
+ 1246  docker inspact --format '{{.networksetting}}'
+ 1247  docker inspect --format '{{.networksetting}}'
+ 1248  docker inspect --format '{{.NetworkSettings}}'
+ 1249  docker inspect --format '{{.NetworkSettings}}' 90888ea98926
+ 1250  docker inspect --format '{{.NetworkSettings.Networks.bridge.IPAddress}}' 90888ea98926
+ 1251  docker logs 90888ea98926
+ 1252  exit
+ 1253  docker images
+ 1254  ls
+ 1255  vi dockerfile
+ 1256  docker build --tag test .
+ 1257  cat dockerfile 
+ 1258  vi dockerfile
+ 1259  docker build --tag test .
+ 1260  cat dockerfile 
+ 1261  sudo rm dockerfile 
+ 1262  vi dockerfile
+ 1263  docker build --tag test .
+ 1264  docker ps
+ 1265  docker images
+ 1266  docker ps -a
+ 1267  clear
+ 1268  docker ps -a
+ 1269  docker inspact vibrant_meitner
+ 1270  docker insepact vibrant_meitner
+ 1271  docker inspect vibrant_meitner
+ 1272  ls
+ 1273  cat dockerfile 
+ 1274  vi dockerfile 
+ 1275  docker build --tag test .
+ 1276  cat dockerfile 
+ 1277  vi dockerfile 
+ 1278  docker build --tag test .
+ 1279  sudo rm dockerfile 
+ 1280  ls
+ 1281  sudo vi dockerfile
+ 1282  docker build --tag test .
+ 1283  sudo vi dockerfile
+ 1284  docker build --tag test .
+ 1285  ls
+ 1286  sudo vi dockerfile
+ 1287  docker build --tag test .
+ 1288  sudo vi dockerfile
+ 1289  docker build --tag test .
+ 1290  sudo vi dockerfile
+ 1291  docker build --tag test .
+ 1292  sudo vi dockerfile
+ 1293  docker build --tag test .
+ 1294  sudo vi dockerfile
+ 1295  docker build --tag test .
+ 1296  sudo vi dockerfile
+ 1297  docker build --tag test .
+ 1298  sudo vi dockerfile
+ 1299  docker build --tag test .
+ 1300  sudo vi dockerfile
+ 1301  docker build --tag test .
+ 1302  docker images
+ 1303  docker run -itd --name cont test
+ 1304  dokcer ps
+ 1305  docker ps
+ 1306  docker exec run -it cont /bin/bash
+ 1307  docker exec run -it cont run
+ 1308  docker exec run -it cont /bin/sh
+ 1309  docker exec -it cont /bin/bash
+ 1310  docker ps -a
+ 1311  dokcer run -it -p 8080:8080 --name tomcat test
+ 1312  dokcer run -it -p 8080:8080 tomcat test
+ 1313  docker run -it -p 8080:8080 tomcat test
+ 1314  docker stop cont
+ 1315  docker rm cont
+ 1316  docker run -it -p 8080:8080 tomcat
+ 1317  docker ps -a
+ 1318  docker rm elated_tu peaceful_ritchie
+ 1319  docker ps -a
+ 1320  sudo lsof -i :8080
+ 1321  docker run -d -p 9090:8080 --name tomcat1 tomcat
+ 1322  docker ps
+ 1323  docker logs tomcat1
+ 1324  docker run -d -p 9091:8080 --name tomcat1 tomcat
+ 1325  dokcer ps
+ 1326  docker ps
+ 1327  docker rm tomcat1
+ 1328  docker stop tomcat1
+ 1329  docker rm tomcat1
+ 1330  docker run -d -p 9091:8080 --name tomcat1 tomcat
+ 1331  docker ps
+ 1332  docker stop tomcat1
+ 1333  docker rm tomcat1
+ 1334  docker rmi tomcat
+ 1335  docker images
+ 1336  docker images
+ 1337  docker rmi ubuntu:latest 
+ 1338  docker build -t test . 
+ 1339  docker images
+ 1340  docker run -d -p 9091:8080 --name tomcat1 tomcat
+ 1341  docker images
+ 1342  docker run -d -p 9091:8080 --name tomcat1 test
+ 1343  docker run -d -p 9091:8080 --name tomcat2 test
+ 1344  docker rmi tomcat:latest 
+ 1345  docker ps
+ 1346  docker rm tomcat1
+ 1347  docker stop tomcat1
+ 1348  docker rm tomcat1
+ 1349  docker ps
+ 1350  docker images
+ 1351  docker rmi tomcat:latest 
+ 1352  docker run -d -p 9091:8080 --name tomcat1 test
+ 1353  docker ps
+ 1354  docker exec -it tomcat1 /bin/bash
+ 1355  docker conatainer ls
+ 1356  docker container ls
+ 1357  docker ps
+ 1358  docker ps -a
+ 1359  docker container ls -a
+ 1360  docker start tomcat1
+ 1361  docker container ls -a
+ 1362  docker ps
+ 1363  docker stop tomcat1
+ 1364  docker ls
+ 1365  docker container ls -a
+ 1366  docker rm tomcat1
+ 1367  docker ps
+ 1368  docker ps -a
+ 1369  docker rm vibrant_meitner
+ 1370  docker rm tomcat2
+ 1371  docker ps -a
+ 1372  docker ps 
+ 1373  docker run -it ubuntu
+ 1374  docker run -it node
+ 1375  node --version
+ 1376  dokcer images
+ 1377  docker images
+ 1378  dokcer ps 
+ 1379  docker ps 
+ 1380  docker ps -a
+ 1381  exit
+ 1382  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+ 1383  mkdir .kube
+ 1384  cd .kube/
+ 1385  ls
+ 1386  sudo vi config
+ 1387  cd ..
+ 1388  kubectl get nodes
+ 1389  ping 172.31.23.250
+ 1390  kubectl get nodes
+ 1391  ping 51.20.122.105
+ 1392  ssh ubuntu@51.20.122.105
+ 1393  kubectl get nodes
+ 1394  ls 
+ 1395  cd .kube/
+ 1396  ls
+ 1397  cd ..
+ 1398  sudo rm -r .kube/
+ 1399  ls -a
+ 1400  mkdir ~/.kube 
+ 1401  cd .kube/
+ 1402  sudo vi config 
+ 1403  kubectl get nodes
+ 1404  sudo vi config 
+ 1405  kubectl get nodes
+ 1406  kubectl config set-cluster kubernetes   --server=https://51.20.122.105:6443   --insecure-skip-tls-verify=true
+ 1407  sudo kubectl config set-cluster kubernetes   --server=https://51.20.122.105:6443   --insecure-skip-tls-verify=true
+ 1408  kubectl get nodes
+ 1409  sudo systemctl restart kubelet
+ 1410  sudo systemctl restart kubectl
+ 1411  egrep -c '(vmx|svm)' /proc/cpuinfo
+ 1412  kubectl version --client
+ 1413  kubectl cluster-info
+ 1414  kubectl run nginx-pod --image=nginx
+ 1415  docker image
+ 1416  docker images
+ 1417  U
+ 1418  kubectl run test --image=nginix 
+ 1419  kubectl run test --image=nginx 
+ 1420  minikube status
+ 1421  minikube start
+ 1422  kubectl run test --image=nginix 
+ 1423  kubectl config current-context
+ 1424  minikube status
+ 1425  minikube stop
+ 1426  minikube start
+ 1427  ls
+ 1428  sudo rm dockerfile 
+ 1429  vi dockerfile
+ 1430  dokcer ps
+ 1431  docker ps
+ 1432  dokcer ps -a
+ 1433  docker ps -a
+ 1434  docker rmi minikube
+ 1435  docker rm 15610ceaf92a
+ 1436  dokcer images
+ 1437  docker images
+ 1438  dokcer images prune -a
+ 1439  docker images prune -a
+ 1440  docker images
+ 1441  docker image prune -a
+ 1442  docker images
+ 1443  docker build --tag test .
+ 1444  dokcer ps
+ 1445  docker ps
+ 1446  docker images
+ 1447  vi dockerfile 
+ 1448  docker build --tag test .
+ 1449  docker images
+ 1450  docker ps -a
+ 1451  docker -it --rm test 
+ 1452  docker run -it --rm test  
+ 1453  cat dockerfile 
+ 1454  docker run -it --rm test  ls test2
+ 1455  docker ps 
+ 1456  docker ps -a
+ 1457  exit
+ 1458  cat dockerfile 
+ 1459  kubectl describe nodes
+ 1460  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+ 1461  chmod +x kubectl
+ 1462  sudo mv kubectl /usr/local/bin/
+ 1463  kubectl version --client
+ 1464  curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.24.0/kind-linux-amd64
+ 1465  chmod +x kind
+ 1466  sudo mv kind /usr/local/bin/
+ 1467  kind version
+ 1468  kind create cluster --name mycluster
+ 1469  kubectl cluster-info --context kind-mycluster
+ 1470  kubectl get nodes
+ 1471  kubectl taint nodes --all node-role.kubernetes.io/control-plane-
+ 1472  kubectl get pod
+ 1473  kubectl get ns
+ 1474  kubctl create ns test
+ 1475  kubectl create ns test
+ 1476  kubectl get ns
+ 1477  ls
+ 1478  vi createPod.yaml
+ 1479  kubectl apply createPod.yaml 
+ 1480  kubectl apply -f createPod.yaml 
+ 1481  kubectl get po
+ 1482  kubectl get po -a
+ 1483  kubectl get po -
+ 1484  kubectl get po -A
+ 1485  kubectl get pods -n test
+ 1486  vi tomcatPod.yaml
+ 1487  kubectl apply tomcatPod.yaml 
+ 1488  kubectl apply -f tomcatPod.yaml 
+ 1489  kubectl create namespace tomcat
+ 1490  kubectl get namespaces
+ 1491  kubectl apply -f tomcatPod.yaml 
+ 1492  kubectl get pods -n tomcat
+ 1493  kubectl get po
+ 1494  kubectl get po -n test
+ 1495  vi nginx-pod2.yaml
+ 1496  kubectl apply -f nginx-pod2.yaml
+ 1497  kubectl get pods -n test
+ 1498  kubectl get pods -n test -o wide
+ 1499  kubectl exec -it nginx-pod -n test -- ping 10.244.0.5
+ 1500  kubectl exec -it nginx-pod -n test -- ping 10.244.0.7
+ 1501  kubectl exec -it nginx-pod -n test -- wget -qO- http://10.244.0.7
+ 1502  kubectl exec -it nginx-pod -n test -- curl http://10.244.0.7
+ 1503  kubectl exec -it nginx-pod2 -n test -- curl http://10.244.0.5
+ 1504  kubectl exec -it nginx-pod2 -n test -- curl -v  http://10.244.0.5
+ 1505  kubectl get pods -n test -o wide
+ 1506  kubectl get pod nginx-pod -n test -o wide
+ 1507  kubectl describe pod nginx-pod -n test
+ 1508  kubectl describe pod nginx-pod2 -n test
+ 1509  clear
+ 1510  kubectl get po -
+ 1511  get all -n kube-system
+ 1512  kubectl get all -n kube-system
+ 1513  makdir k8s
+ 1514  sudo mkdir k8s
+ 1515  ls
+ 1516  cd k8s/
+ 1517  ls
+ 1518  vi static-pod.yaml
+ 1519  sudo vi static-pod.yaml
+ 1520  kubectl get po
+ 1521  kubectl apply -f static-pod.yaml 
+ 1522  ls
+ 1523  kubectl get po
+ 1524  kubectl delete static-web
+ 1525  kubectl delete po static-web
+ 1526  kubectl get po
+ 1527  cat static-pod.yaml 
+ 1528  pwd 
+ 1529  ls /etc/
+ 1530  ls /etc/ | grep l
+ 1531  ls /etc/ | grep k
+ 1532  apt-get install bash-completion 
+ 1533  sudo apt-get install bash-completion 
+ 1534  echo $SHELL
+ 1535  ls -a
+ 1536  exit
+ 1537  kubectl run firstpod --generator=run-pod/v1 --image=coolgourav147/nginx-custom
+ 1538  kubectl get pod
+ 1539  kubectl create pod firstpod --image=nginx 
+ 1540  kubectl run firstpod --image=nginx 
+ 1541  kubectl get pod
+ 1542  kubectl get po -o wide
+ 1543  kubectl explain pod | less
+ 1544  kubectl get pods -w
+ 1545  kubectl run firstpod --image=coolgourav147/nginx-custom --restart=Never
+ 1546  kubectl run secondpod --image=coolgourav147/nginx-custom --restart=Never
+ 1547  exit
+ 1548  ls
+ 1549  docker ps
+ 1550  [ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.31.0/kind-linux-amd64
+ 1551  chmod +x ./kind
+ 1552  ./kind --version
+ 1553  sudo mv ./kind /usr/local/bin/kind
+ 1554  kind --version
+ 1555  ls -a
+ 1556  ls -l
+ 1557  ls -l | grep kubctl
+ 1558  ls -l | grep kubectl
+ 1559  ls -l | grep ./kubectl
+ 1560  kubectl version
+ 1561  ./kubectl version
+ 1562  pwd 
+ 1563  kubectl version
+ 1564  kubectl config current-context
+ 1565  ronni@Garry:~$ kubectl config current-context
+ 1566  error: current-context is not set
+ 1567  ronni@Garry:~$curl -Lo kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
+ 1568  chmod +x kind
+ 1569  sudo mv kind /usr/local/bin/
+ 1570  curl -Lo kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
+ 1571  chmod +x kind
+ 1572  sudo mv kind /usr/local/bin/
+ 1573  kind version
+ 1574  ls
+ 1575  cd k8s/
+ 1576  ls
+ 1577  sudo vi cluster.yaml
+ 1578  kind create cluster --config cluster.yaml --name garry-cluster
+ 1579  cat cluster.yaml 
+ 1580  sudo vi cluster.yaml
+ 1581  kind create cluster --config cluster.yaml --name garry-cluster
+ 1582  kubectl get nodes
+ 1583  docker ps
+ 1584  clear
+ 1585  kubctel cluster-info
+ 1586  kubectl cluster-info
+ 1587  kubectl get ns
+ 1588  vim namsapce.yaml
+ 1589  sudo vim namsapce.yaml
+ 1590  kubectl apply -f namsapce.yaml 
+ 1591  kubectl get ns
+ 1592  sudo vi pods.ymal
+ 1593  mv pods.ymal pods.yaml
+ 1594  sudo mv pods.ymal pods.yaml
+ 1595  sudo vi pods.yaml 
+ 1596  sudo apply -f pods.yaml 
+ 1597  kubectl apply -f pods.yaml 
+ 1598  sudo vi pods.yaml 
+ 1599  kubectl apply -f pods.yaml 
+ 1600  sudo vi pods.yaml 
+ 1601  kubectl apply -f pods.yaml 
+ 1602  sudo vi pods.yaml 
+ 1603  kubectl apply -f pods.yaml 
+ 1604  cat pods.yaml 
+ 1605  sudo vi pods.yaml 
+ 1606  kubectl apply -f pods.yaml 
+ 1607  kubectl get po
+ 1608  kubectl get po -n ns
+ 1609  kubectl get po -n nginx
+ 1610  cd k8s/
+ 1611  ls
+ 1612  kubectl get ns
+ 1613  kubectl get po
+ 1614  kubectl get po -n kube-system
+ 1615  kubectl get en -n kube-system
+ 1616  kubectl get ep -n kube-system
+ 1617  curl -v 10.244.3.5
+ 1618  watch kubectl top pods
+ 1619  watch kubectl get pods
+ 1620  kubectl get deoply 
+ 1621  kubectl get deply
+ 1622  kubectl get deplooy
+ 1623  kubectl get deploy
+ 1624  kubectl top pod -w
+ 1625  kubectl get deployment my-dep -w
+ 1626  watch kubectl get svc
+ 1627  ls
+ 1628  sudo mkdir san_k8s
+ 1629  cd san_k8s/
+ 1630  clear
+ 1631  ls
+ 1632  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/high-availability-1.21+.yaml
+ 1633  kubectl get po
+ 1634  kubectl get po -all
+ 1635  kubectl get all po
+ 1636  kubectl get all -n kube-system
+ 1637  kubctel get deploy
+ 1638  kubectl get deploy
+ 1639  kubectl get deploy -n kube-system
+ 1640  kubectl edit deploy metrics-server -n kube-system
+ 1641  kubectl get deploy -n kube-system
+ 1642  kubectl get all -n kube-system
+ 1643  kubectl get po -n kube-system
+ 1644  vi hap_deployment.yaml
+ 1645  sudo vi hap_deployment.yaml
+ 1646  kubectl top nodes
+ 1647  kubectl get hpa
+ 1648  ls
+ 1649  kubectl apply -f a
+ 1650  kubectl apply -f apply hap_deployment.yaml 
+ 1651  kubectl apply  -f  hap_deployment.yaml 
+ 1652  kubectl get hpa
+ 1653  kubectl get po
+ 1654  kubectl top pod
+ 1655  kubectl get po
+ 1656  kubectl top pod
+ 1657  kubectl top pods
+ 1658  kubectl get all
+ 1659  kubectl get pods -n kube-system
+ 1660  kubectl rollout restart deployment metrics-server -n kube-system
+ 1661  kubectl edit deployment metrics-server -n kube-system
+ 1662  kubectl get apiservice v1beta1.metrics.k8s.io
+ 1663  kubectl top nodes
+ 1664  kubectl top pods
+ 1665  cat hap_deployment.yaml 
+ 1666  kubectl top pods
+ 1667  kubectl get deployment my-dep
+ 1668  kubectl get hpa
+ 1669  kubectl get hpa -n kube-system
+ 1670  kubectl get all
+ 1671  kubectl get po -o wide
+ 1672  curl -v 10.244.3.5
+ 1673  kubectl run busy -i --tty --rm image=busybox /bin/sh
+ 1674  kubectl run busy -i --tty --rm --image=busybox /bin/sh
+ 1675  ls
+ 1676  sudo vi hpa.yaml
+ 1677  kubectl apply -f hpa.yaml 
+ 1678  kubectl get hpa
+ 1679  kubectl run busy -i --tty --rm --image=busybox /bin/sh
+ 1680  clear
+ 1681  vi mongoDB.yaml
+ 1682  sudo vi mongoDB.yaml
+ 1683  kubectl apply -f mongoDB.yaml 
+ 1684  sudo vi mongoDB.yaml
+ 1685  cat mongoDB.yaml 
+ 1686  ls
+ 1687  kubectl delete -f mongoDB.yaml 
+ 1688  ls
+ 1689  sudo rm -r mongoDB.yaml 
+ 1690  sudo vi mongoDB.yaml
+ 1691  kubectl apply -f mongoDB.yaml
+ 1692  sudo vi mongoDB.yaml
+ 1693  kubectl apply -f mongoDB.yaml
+ 1694  ip addr show eth0
+ 1695  sudo vi mongoDB.yaml
+ 1696  kubectl apply -f mongoDB.yaml
+ 1697  cat mongoDB.yaml 
+ 1698  kubectl get svc mongospr
+ 1699  kubectl port-forward service/mongospr 8080:80
+ 1700  kubectl port-forward service/mongospr 30080:80
+ 1701  cd ,,
+ 1702  cd ..
+ 1703  cls
+ 1704  ls
+ 1705  cd k8s/
+ 1706  ls
+ 1707  celar
+ 1708  claer
+ 1709  clear
+ 1710  ls
+ 1711  cd san_k8s/
+ 1712  ls
+ 1713  cat mongoDB.yaml 
+ 1714  kubectl get hpa
+ 1715  kubectl get all
+ 1716  kubectl port-forward service/hpa-svc 8080:80
+ 1717  kubectl port-forward service/mongospr 30080:80
+ 1718  kubectl logs -f spring-77bc9ffbf-gcj6g
+ 1719  kubectl exec -it spring-77bc9ffbf-gcj6g -- printenv | grep SPRING
+ 1720  exit
+ 1721  kubectl exec spring-77bc9ffbf-gcj6g -- printenv | grep SPRING
+ 1722  kubectl exec -it mongo-bbwcf -- mongosh -u mongodb -p 'mongo@123' --authenticationDatabase admin
+ 1723  kubectl edit deployment spring
+ 1724  kubectl delete pod -l app=springapp
+ 1725  kubectl get pods
+ 1726  kubectl exec <spring-pod-name> -- printenv | grep SPRING
+ 1727  kubectl exec spring-6c64c54f78-znccb -- printenv | grep SPRING
+ 1728  kubectl edit deployment spring
+ 1729  kubectl delete pod -l app=springapp
+ 1730  kubectl get pods
+ 1731  kubectl exec -it mongo-bbwcf -- mongosh -u appuser -p 'apppass123' --authenticationDatabase test
+ 1732  ls
+ 1733  cd san_k8s/
+ 1734  ls
+ 1735  sudo rm -r mongoDB.yaml 
+ 1736  kubectl get hpa
+ 1737  kubectl delete hap hpa-test
+ 1738  kubectl delete hpa hpa-test
+ 1739  kubectl get hpa
+ 1740  kubectl get deploy
+ 1741  kubectl delete deploy kubectl my-dep spring 
+ 1742  kubectl delete deploy kubectl my-dep spring
+ 1743  kubectl get deploy
+ 1744  kubectl get all
+ 1745  kubectl get svc
+ 1746  kubectl delete svc mongospr mongosvc
+ 1747  kubectl delete svc hpa-svc
+ 1748  kubectl get svc
+ 1749  ls
+ 1750  volume_NFs.yaml
+ 1751  sudo vi volume_NFs.yaml
+ 1752  kubectl apply -f volume_NFs.yaml 
+ 1753  kubectl get pod
+ 1754  kubectl get all
+ 1755  cat volume_NFs.yaml 
+ 1756  sudo vi vol
+ 1757  sudo vi volume_NFs.yaml 
+ 1758  kubectl delete -f volume_NFs.yaml
+ 1759  kubectl apply -f volume_NFs.yaml
+ 1760  kubectl apply -f volume_NFs.yaml 
+ 1761  kubectl get po
+ 1762  kubectl describe pod mongo-shd28
+ 1763  kubectl get pod -w
+ 1764  kubectl logs spring-7d9dd576c9-fz6cv
+ 1765  cat vo
+ 1766  cat volume_NFs.yaml 
+ 1767  sudo vi volume_NFs.yaml 
+ 1768  kubectl apply -f volume_NFs.yaml 
+ 1769  sudo vi volume_NFs.yaml 
+ 1770  kubectl apply -f volume_NFs.yaml 
+ 1771  sudo vi volume_NFs.yaml 
+ 1772  cat volume_NFs.yaml 
+ 1773  sudo rm -r volume_NFs.yaml 
+ 1774  cat volume_NFs.yaml 
+ 1775  sudo vi volume_NFs.yaml 
+ 1776  kubectl apply -f volume_NFs.yaml 
+ 1777  kubectl get pods
+ 1778  kubectl delete -f volume_NFs.yaml
+ 1779  kubectl apply -f volume_NFs.yaml
+ 1780  kubectl delete -f volume_NFs.yaml
+ 1781  kubectl apply -f volume_NFs.yaml
+ 1782  kubectl delete -f volume_NFs.yaml
+ 1783  kubectl apply -f volume_NFs.yaml
+ 1784  kubectl get pods
+ 1785  kubectl get pods -w
+ 1786  ls
+ 1787  cat volume_NFs.yaml 
+ 1788  kubectl get pods
+ 1789  kubectl logs spring-864c7f4b4-v76zr
+ 1790  watch kubectl logs spring-864c7f4b4-v76zr
+ 1791  cd san_k8s/
+ 1792  ls
+ 1793  cat mongoDB.yaml 
+ 1794  sudo vi mongoDB.yaml 
+ 1795  kubectl apply if mongoDB.yaml 
+ 1796  kubectl apply -f mongoDB.yaml 
+ 1797  kubectl edit deployment spring
+ 1798  kubectl apply -f mongoDB.yaml 
+ 1799  kubectl get pods
+ 1800  kubectl edit deployment spring
+ 1801  kubectl delete pod -l app=springapp
+ 1802  kubectl get pods
+ 1803  kubectl exec -it mongo-bbwcf -- mongosh -u mongodb -p mongo@123 --authenticationDatabase admin
+ 1804  kubectl get pods
+ 1805  kubectl logs spring-567bfc76fd-mcnxk
+ 1806  kubectl logs spring-567bfc76fd-mcnxk --previous
+ 1807  kubectl describe pod spring-567bfc76fd-mcnxk
+ 1808  kubectl edit deployment spring
+ 1809  kubectl delete pod -l app=springapp
+ 1810  kubectl get pods
+ 1811  kubectl port-forward service/mongospr 30080:80
+ 1812  kubectl port-forward service/mongospr 8080:80
+ 1813  kubectl port-forward service/mongospr 9090:80
+ 1814  ls
+ 1815  cd k8s
+ 1816  ls
+ 1817  sudo rm -r 
+ 1818  sudo rm -r 1
+ 1819  kubectl get all
+ 1820  kubectl get rs
+ 1821  kubectl delete re mongo
+ 1822  kubectl delete rs mongo
+ 1823  kubectl delete rs spring-7d9dd576c9
+ 1824  kubectl get rs
+ 1825  kubectl get all
+ 1826  kubectl get rs
+ 1827  kubectl get deploy 
+ 1828  kubectl delete deply spring
+ 1829  kubectl delete deploy spring
+ 1830  kubectl get deploy 
+ 1831  kubectl delete deploy spring
+ 1832  kubectl get all
+ 1833  kubectl get svc
+ 1834  kubectl delete svc mongospr
+ 1835  kubectl delete svc mongosvc
+ 1836  kubectl get all
+ 1837  clear
+ 1838  kubectl get po
+ 1839  kubectl get po all
+ 1840  kubectl get all
+ 1841  kubectl get ns
+ 1842  vi Deplyment.yaml
+ 1843  sudo vi Deplyment.yaml
+ 1844  kubectl apply -f Deplyment.yaml 
+ 1845  sudo vi Deplyment.yaml
+ 1846  sudo rm -r Deplyment.yaml 
+ 1847  sudo vi Deplyment.yaml
+ 1848  kubectl apply -f Deplyment.yaml 
+ 1849  kubectl get deployment -n nginx
+ 1850  kubectl apply -f Deplyment.yaml 
+ 1851  kubectl get deployment -n nginx
+ 1852  kubectl scale deplyment nginx nginx-deployment -n nginx --replicas=10
+ 1853  kubectl scale deployment nginx nginx-deployment -n nginx --replicas=10
+ 1854  exit
+ 1855  ls
+ 1856  cd k8s/
+ 1857  ls
+ 1858  clear
+ 1859  git clone https://github.com/Gaurav-G16/online_shopping_app.git
+ 1860  ls -ld ~/k8s
+ 1861  sudo git clone https://github.com/Gaurav-G16/online_shopping_app.git
+ 1862  decker images
+ 1863  docker images
+ 1864  docker ps
+ 1865  clear
+ 1866  dokcer build -t online_shop_app:latest
+ 1867  docker build -t online_shop_app:latest
+ 1868  docker build
+ 1869  docker build -t online_shop_app:latest .
+ 1870  cd online_shopping_app/
+ 1871  docker build -t online_shop_app:latest .
+ 1872  dokcer run -d -p 5173:5173 online_shop_app:latest
+ 1873  docker run -d -p 5173:5173 online_shop_app:latest
+ 1874  docker ps
+ 1875  docker stop 94a607ba34a9
+ 1876  docker rm 94a607ba34a9
+ 1877  docker run -d -p 5173:80 --name online_shop online_shop_app:latest
+ 1878  docker ps
+ 1879  clear
+ 1880  docker tag online_shop_app:latest gauravg16/online_shop_app:latest
+ 1881  dokcer images
+ 1882  docker images
+ 1883  dokcer login
+ 1884  docker login
+ 1885  docker puch gauravg16/online_shop_app
+ 1886  docker push gauravg16/online_shop_app
+ 1887  sudo vi namesapce.yaml
+ 1888  sudo mkdir k8s
+ 1889  ls
+ 1890  cd k8s
+ 1891  ls
+ 1892  cd ..
+ 1893  ls
+ 1894  sudo rm -r namesapce.yaml 
+ 1895  cd k8s/
+ 1896  clear
+ 1897  ls
+ 1898  kubectl apply -f namespace.yml 
+ 1899  kubectl get ns
+ 1900  cat deployment.yml 
+ 1901  clear
+ 1902  ls
+ 1903  kubectl apply -f deployment.yml 
+ 1904  kubctl get po
+ 1905  kubectl get po
+ 1906  kubectl get ns
+ 1907  kubectl get po -n online-shop-pord
+ 1908  kubectl get po -n online-shop-prod
+ 1909  kubectl apply -f service.yml 
+ 1910  kubectl get sv
+ 1911  kubectl get svc
+ 1912  kubectl get all
+ 1913  kubectl get all -n online-shop-prod
+ 1914  kind load docker-image online_shop_app:latest --name garry-cluster
+ 1915  kubectl rollout restart deployment online-shop -n online-shop-prod
+ 1916  kubectl delete pod -n online-shop-prod --all
+ 1917  kubectl get pods -n online-shop-prod
+ 1918  kubectl describe deployment online-shop -n online-shop-prod
+ 1919  kubectl edit deployment online-shop -n online-shop-prod
+ 1920  kubectl get pods -n online-shop-prod
+ 1921  kubectl rollout restart deployment online-shop -n online-shop-prod
+ 1922  kubectl get pods -n online-shop-prod
+ 1923  kubectl get deployment online-shop -n online-shop-prod -o yaml | grep -A 2 image:
+ 1924  kind load docker-image online_shop_app:latest --name garry-cluster
+ 1925  kubectl get configmap -n online-shop-prod
+ 1926  kubectl create configmap online-shop-config   --from-literal=API_URL=http://example.com   --from-literal=NODE_ENV=production   -n online-shop-prod
+ 1927  kubectl create configmap online-shop-config   --from-env-file=app.env   -n online-shop-prod
+ 1928  kubectl delete pod -n online-shop-prod --all
+ 1929  kubectl get pods -n online-shop-prod
+ 1930  exit
+ 1931  cd k8s/
+ 1932  ls
+ 1933  kubectl get stoageCliss
+ 1934  kubectl get stoageClass
+ 1935  kubectl get storageClass
+ 1936  kubectl get pv
+ 1937  kubectl get pvc
+ 1938  ls
+ 1939  xs k8s/
+ 1940  cd k8s/
+ 1941  ls
+ 1942  sudo vi PV_test.yaml
+ 1943  dokcer ps
+ 1944  docker ps
+ 1945  sudo vi PV_test.yaml
+ 1946  kubectl apply PV_test.yaml 
+ 1947  kubectl apply -f PV_test.yaml 
+ 1948  ls
+ 1949  rm -r '\' 
+ 1950  sudo rm -r '\' 
+ 1951  ls
+ 1952  cat PV_test.yaml 
+ 1953  sudo vi PV_test.yaml 
+ 1954  kubectl apply -f PV_test.yaml 
+ 1955  cat PV_test.yaml 
+ 1956  sudo vi PV_test.yaml 
+ 1957  kubectl apply -f PV_test.yaml 
+ 1958  kubectl get pv
+ 1959  kubectl describe mysql-mypv
+ 1960  kubectl describe pv mysql-mypv
+ 1961  sudo vi Pvc_test.yaml
+ 1962  kubectl apply -f Pvc_test.yaml 
+ 1963  kubectl create -n mysql
+ 1964  kubectl create -na mysql
+ 1965  kubectl create -ns mysql
+ 1966  kubectl create ns mysql
+ 1967  kubectl apply -f Pvc_test.yaml 
+ 1968  car Pvc_test.yaml 
+ 1969  cat Pvc_test.yaml 
+ 1970  sudo vi Pvc_test.yaml 
+ 1971  kubectl apply -f Pvc_test.yaml 
+ 1972  kubectl get pv
+ 1973  kubectl get pvc
+ 1974  kubectl get pvc -n mysql
+ 1975  cat PV_test.yaml 
+ 1976  kubectl get pvc
+ 1977  kubectl get pvc -n mysql
+ 1978  kubectl get pvc
+ 1979  kubectl get pv
+ 1980  exit
+ 1981  ls
+ 1982  exit
+ 1983  kind create cluster --config=config.yml
+ 1984  kubectl cluster-info
+ 1985  kubectl get nodes
+ 1986  kubectl port-forward svc/kind-prometheus-grafana -n monitoring 31000:80 --address=0.0.0.0 &
+ 1987  kubectl get secrets -n monitoring
+ 1988  kubectl get secret kind-prometheus-grafana -n monitoring -o jsonpath="{.data.admin-user}" | base64 --decode
+ 1989  kubectl get secret kind-prometheus-grafana -n monitoring -o jsonpath="{.data.admin-password}" | base64 --decode
+ 1990  helm upgrade kind-prometheus prometheus-community/kube-prometheus-stack   -n monitoring   --set grafana.adminPassword=admin123
+ 1991  helm upgrade kind-prometheus prometheus-community/kube-prometheus-stack   -n monitoring   --set grafana.adminPassword=admin123
+ 1992  kubectl rollout restart deployment kind-prometheus-grafana -n monitoring
+ 1993  clear
+ 1994  kubectl port-forward svc/kind-prometheus-grafana -n monitoring 32000:80
+ 1995  clear
+ 1996  git init
+ 1997  ls -a
+ 1998  git status
+ 1999  git add testing.py 
+ 2000  git status
+ 2001  git rm testing.py 
+ 2002  git status
+ 2003  git restore testing.py 
+ 2004  git status
+ 2005  git rm testing.py 
+ 2006  git restore testing.py 
+ 2007  git status
+ 2008  git restore --staged testing.py 
+ 2009  git status
+ 2010  git add .
+ 2011  git status
+ 2012  git commit -m "added testing file"
+ 2013  git status
+ 2014  rm testing.py 
+ 2015  git restore testing.py 
+ 2016  git status
+ 2017  git add file_two.py 
+ 2018  ls
+ 2019  git status
+ 2020  git reset file_two.py
+ 2021  git status
+ 2022  git add file_two.py 
+ 2023  git status
+ 2024  gir reset file_two.py 
+ 2025  git reset file_two.py 
+ 2026  git status
+ 2027  git add file_two.py 
+ 2028  git status
+ 2029  history > commdgit
